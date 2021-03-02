@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>TKA.Posts</id>
+    <version>1.0.0</version>
+    <authors>TKA</authors>
+    <owners>TKA</owners>
+    <title>Posts</title>
+    <description>Posts</description>
+    <copyright>TKA</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/oqtane/oqtane.framework</projectUrl>
+    <iconUrl>https://www.oqtane.org/Portals/0/icon.jpg</iconUrl>
+    <tags>oqtane module</tags>
+    <releaseNotes></releaseNotes>
+    <summary></summary>
+    <dependencies>
+      <dependency id="Oqtane.Framework" version="2.0.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\Client\bin\Release\net5.0\TKA.Posts.Client.Oqtane.dll" target="lib\net5.0" /> 
+    <file src="..\Client\bin\Release\net5.0\TKA.Posts.Client.Oqtane.pdb" target="lib\net5.0" /> 
+    <file src="..\Server\bin\Release\net5.0\TKA.Posts.Server.Oqtane.dll" target="lib\net5.0" /> 
+    <file src="..\Server\bin\Release\net5.0\TKA.Posts.Server.Oqtane.pdb" target="lib\net5.0" /> 
+    <file src="..\Shared\bin\Release\net5.0\TKA.Posts.Shared.Oqtane.dll" target="lib\net5.0" /> 
+    <file src="..\Shared\bin\Release\net5.0\TKA.Posts.Shared.Oqtane.pdb" target="lib\net5.0" /> 
+    <file src="..\Server\wwwroot\**\*.*" target="wwwroot" /> 
+  </files>
+</package>
